@@ -1,0 +1,9 @@
+git init
+git add, git add -A
+git commit, git commit -a 
+git clone 
+git merge 
+git push
+git pull 
+git log
+git status 
