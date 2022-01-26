@@ -8,3 +8,6 @@ git pull
 git log
 git status 
 git remote add origin
+git branch 
+git checkout 
+
