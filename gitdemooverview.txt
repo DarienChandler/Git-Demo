@@ -1,1 +1,5 @@
-I created 2 branches and multiple files 
+error "fatal: remote origin already exists." 
+    https://www.cloudbees.com/blog/remote-origin-already-exists-error
+
+error "fatal: refusing to merge unrelated histories"
+    https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error
