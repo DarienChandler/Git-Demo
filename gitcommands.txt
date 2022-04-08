@@ -1,20 +1,30 @@
 -help  - attribute to get help on any commands. 
 
+ git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 
 git init - Initialize the repository 
 git add <fn> - add files to staging { git add -A  }
 git commit "message" - commit changes  , {git commit -a -m "message"} 
 git clone - create a working copy of a local repo
 git merge <bn> - use to merge branch to the one youre checked into
-git push origin (main/master) - send changes to branch  
-git pull origin (main/master) - get latest files 
+git push origin (branch name ) - send changes to branch 
+    origin  --delete <bn> - delete a  remote branch  
+git rm - remove a git file 
+git 
+
+git pull origin (branch name ) - get latest files 
 git log - show a commit log 
 git status - shows changes made and files to be commited 
-git remote add origin <url> - connect to remote repo
-git branch - list all the branches in repo 
+git remote - how to identify remote 
+    -v
+    add origin <url> - connect to remote repo
+git branch - list all the branches in local repo 
+    -r list remote repo branches
     -d <bn> - deletes a branch {local}
-    origin --delete <bn> - delete a remote repo 
+    
 git stash - temporarily shelves changes made to working copy    
 git checkout <branch name> - switch from one branch to another 
+    -b <nbn> - create a new branch 
 git fetch
 git cherry-pick <commitHash>
