@@ -1,5 +1,7 @@
 -help  - attribute to get help on any commands. 
 
+add -> commit -> push
+
  git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
