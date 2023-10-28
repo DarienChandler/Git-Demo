@@ -1,5 +1,11 @@
+Errors seen: 
+
 error "fatal: remote origin already exists." 
     https://www.cloudbees.com/blog/remote-origin-already-exists-error
 
 error "fatal: refusing to merge unrelated histories"
     https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error
+
+error: Cannot delete branch 'b2' checked out at
+    https://stackoverflow.com/questions/41492254/deleting-a-local-branch-with-git
+

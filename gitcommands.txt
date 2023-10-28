@@ -2,18 +2,16 @@
 
 add -> commit -> push
 
- git config --global user.name "Your Name"
+git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
 git init - Initialize the repository 
 git add <fn> - add files to staging { git add -A  }
-git commit "message" - commit changes  , {git commit -a -m "message"} 
+git commit "message" - commit changes  , {git commit -a -m "message"} s
 git clone - create a working copy of a local repo
 git merge <bn> - use to merge branch to the one youre checked into
 git push origin (branch name ) - send changes to branch 
     origin  --delete <bn> - delete a  remote branch  
-git rm - remove a git file 
-git 
 
 git pull origin (branch name ) - get latest files 
 git log - show a commit log 
@@ -21,6 +19,8 @@ git status - shows changes made and files to be commited
 git remote - how to identify remote 
     -v
     add origin <url> - connect to remote repo
+    set-url origin <url> - update/change the git remote url	
+
 git branch - list all the branches in local repo 
     -r list remote repo branches
     -d <bn> - deletes a branch {local}
